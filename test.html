@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Page with Quiz, Carousel, and API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Interactive Quiz & Image Carousel</h1>
+</header>
+<!-- Image Carousel Section -->
+<section id="carousel">
+    <h2>Image Carousel</h2>
+    <div class="carousel-container">
+        <div class="carousel-images">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Indian_Space_Research_Organisation_Logo.svg" alt="Image 1">
+            <img src="https://www.hindustantimes.com/ht-img/img/2023/12/21/550x309/On-August-23--Isro-created-history-by-successfully_1695234675844_1703185578114.jpg" alt="Image 2">
+            <img src="https://vajiram-prod.s3.ap-south-1.amazonaws.com/Second_space_age_2b6bd9cadf.jpg" alt="Image 3">
+        </div>
+        <button id="prev" class="carousel-button">&#10094;</button>
+        <button id="next" class="carousel-button">&#10095;</button>
+    </div>
+    <div id="text">
+        <p>ISRO is the space agency of the Government of India, headquartered in Bengaluru.ISRO, the Indian Space Research Organisation, is India's national space agency, known for its ambitious space missions and contributions to satellite technology, planetary exploration, and space science. It is known for its contributions to space technology and its mission to improve life on Earth through space exploration.
+            ISRO is an important body in India and spearheads research in space science in India, also playing a huge role in the development of the country through educational, agricultural, communication, and defence sector projects.</p>
+            <p>Chandrayaan-3 is a significant mission launched by ISRO on July 14, 2023, aimed at demonstrating India's ability to perform a soft landing on the Moon. Following the partial success of Chandrayaan-2 in 2019, which aimed to explore the lunar south pole, Chandrayaan-3's primary objectives were to successfully land on the Moon and deploy a rover to conduct surface experiments.
+
+                <h2>Key Highlights of Chandrayaan-3:</h2>
+                <ol>
+                    <li>Landing Success: Chandrayaan-3 successfully landed on the Moon on August 23, 2023, making India the fourth country to achieve a soft landing on the lunar surface.</li>
+               
+                    <li>Components: The mission consists of a lander named Vikram and a rover named Pragyan. The lander is equipped with instruments to analyze the lunar surface, while the rover carries payloads to conduct in-situ scientific experiments.</li>
+                
+                    <li>Scientific Goals: The mission aims to study the lunar soil, map the distribution of elements and minerals, and understand the Moon's atmosphere.</li>
+                
+                    <li>International Collaboration: ISRO has emphasized international cooperation, sharing data and findings with the global scientific community.</li>
+                
+                    <li>Chandrayaan-3 marks a significant step for India in lunar exploration and showcases ISRO's growing capabilities in space technology.</li>
+                </0l>
+            </p> 
+    </div>
+</section>
+
+<!-- Quiz Section -->
+<section id="quiz">
+    <h2>ISRO Quiz</h2>
+    <div id="question-container">
+        <!-- Questions will go here -->
+    </div>
+    <button id="submit-quiz">Submit Quiz</button>
+    <div id="quiz-result"></div>
+</section>
+
+
+
+
+<!-- Joke or Weather Data Section -->
+<section id="api-data">
+    <h2>Joke of the Day</h2>
+    <div id="joke-container">
+        <!-- Joke data will go here -->
+        
+    </div>
+    <h1>Click to Display a Joke</h1>
+
+    <button id="jokeButton">Display Joke</button>
+    <p id="jokeText"></p>
+
+    <script src="script.js"></script>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
